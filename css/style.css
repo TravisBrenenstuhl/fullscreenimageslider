@@ -21,9 +21,9 @@ body, #slider, .wrap, .slide-content{
   background-repeat: no-repeat;
 }
 
-.slide1{background-image: url('img/img1.jpg')}
-.slide2{background-image: url('img/img2.jpg')}
-.slide3{background-image: url('img/img3.jpg')}
+.slide1{background-image: url('../img/img1.jpg')}
+.slide2{background-image: url('../img/img2.jpg')}
+.slide3{background-image: url('../img/img3.jpg')}
 .slide-content{
   display: flex;
 }
