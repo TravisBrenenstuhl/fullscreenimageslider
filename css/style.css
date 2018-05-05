@@ -4,10 +4,7 @@
 #dfe9ec
 */
 
-body,
-#slider,
-.wrap,
-.slide-content{
+body, #slider, .wrap, .slide-content{
   margin:0;
   padding:0;
   font-family:Arial, Helvetica, sans-serif;
@@ -16,7 +13,9 @@ body,
   overflow-x: hidden;
 }
 
-.wrap{position:relative}
+.wrap{
+  position: relative;
+}
 
 .slide{
   background-size: cover;
@@ -24,6 +23,6 @@ body,
   background-repeat: no-repeat;
 }
 
-.slide1{background-image: url('img/img1.jpg')}
-.slide2{background-image: url('img/img2.jpg')}
-.slide3{background-image: url('img/img3.jpg')}
+.slide1{
+  background-image: url('img/img1.jpg');
+}
