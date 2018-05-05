@@ -24,6 +24,40 @@ body, #slider, .wrap, .slide-content{
 .slide1{background-image: url('../img/img1.jpg')}
 .slide2{background-image: url('../img/img2.jpg')}
 .slide3{background-image: url('../img/img3.jpg')}
+
 .slide-content{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span{
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow{
+  cursor: pointer;
+  position: absolute;
+  top: 50%; /* moves down 50% */
+  margin-top: -35px;/* after the border the arrow is too low, fixed by adding this*/
+  width: 0;
+  height: 0; /* only working with border*/
+  border-style:solid;
+}
+
+#arrow-left{
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent; /* code that makes the triangle */
+  left:0;
+  margin-left: 30px;  /*pushes arrow over */
+}
+
+#arrow-right{
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff; /* code that makes the triangle */
+  right:0;
+  margin-right: 30px;  /*pushes arrow over */
 }
