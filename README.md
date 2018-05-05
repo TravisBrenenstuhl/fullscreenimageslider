@@ -1,1 +1,1 @@
-![alt tag](img/coffeeslider1.png)
+![alt tag](../img/coffeeslider1.png)
